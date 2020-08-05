@@ -1,6 +1,6 @@
 baseurl: "https://hellboy777.netlify.app"
 title: "SiteTitle"
-theme: "zen"
+theme: ""
 
 params:
   contact: "info@example.org"
