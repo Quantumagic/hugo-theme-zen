@@ -4,7 +4,7 @@ theme: "zen"
 
 params:
   contact: "info@example.org"
-  copyright: "This site is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/)
+  copyright: "This site is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/)"
   dateformat: ""            # Set the date format, default to "2 January, 2006"
   description: ""           # Set site description, used in meta tags and JSON-LD
   favicon: ""               # Relative path to favicon in json feed, no leading slash.
@@ -38,15 +38,15 @@ params:
     category:
       name:                 # * Feed category (iTunes).
       subcategories: []     # Feed sub category (iTunes).
-    explicit: false/true    # Feed explicit settting, default to false (iTunes).
+    explicit:    # Feed explicit settting, default to false (iTunes).
     author:                 # Feed author (iTunes).
     owner:
       name:                 # Feed owner name (iTunes).
       email:                # Feed owner e-mail (iTunes).
     lang:                   # Feed language, defaults to site language (iTunes).
-    block: no/yes           # Block the feed from iTunes, default to no (iTunes).
-    complete: no/yes        # Set the feed as complete, defaults to no (iTunes).
-    type: episodic/serial   # Podcast type, defaults to episodic (iTunes).
+    block:           # Block the feed from iTunes, default to no (iTunes).
+    complete:       # Set the feed as complete, defaults to no (iTunes).
+    type:   # Podcast type, defaults to episodic (iTunes).
     newfeed:                # Are you moving? Set the new feed url here (iTunes).
     cdn:                    # CDN url, no slash on end (https://cdn.example.org).
-    preload: none/metadata/auto # Set on the HTML5 audio tag, defaults to "metadata".
+    preload:  # Set on the HTML5 audio tag, defaults to "metadata".
